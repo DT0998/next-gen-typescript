@@ -44,13 +44,13 @@ const person = {
 
 const copiedPerson = { ...person };
 
-const add = (...numbers: number[]) => {
-  return numbers.reduce((curResult, curValue) => {
-    return curResult + curValue;
-  }, 0);
-};
-const addedNumbers = add(5, 10, 2, 3.7);
-console.log(addedNumbers);
+// const add = (...numbers: number[]) => {
+//   return numbers.reduce((curResult, curValue) => {
+//     return curResult + curValue;
+//   }, 0);
+// };
+// const addedNumbers = add(5, 10, 2, 3.7);
+// console.log(addedNumbers);
 
 const [hobby1, hobby2, ...remainningHobbies] = hobbies;
 
